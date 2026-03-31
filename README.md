@@ -45,13 +45,19 @@ public void addComputador(Computador c) {
 
 Suponha:
 
-`qtdComputadores = 0`java
+```java
+qtdComputadores = 0
+```
 Primeira inserção:
-`compras[0] = c;
-qtdComputadores = 1;`java
+```java
+compras[0] = c;
+qtdComputadores = 1;
+```
 Segunda:
+```java
 compras[1] = c;
 qtdComputadores = 2;
+```
 
 👉 Sempre insere na próxima posição livre
 
@@ -63,6 +69,7 @@ qtdComputadores = 2;
 ❌ Não inicializar o array no construtor
 
 🧪 Versão mais segura (opcional)
+```java
 public boolean addComputador(Computador c) {
     if (qtdComputadores < compras.length) {
         compras[qtdComputadores++] = c;
@@ -70,6 +77,7 @@ public boolean addComputador(Computador c) {
     }
     return false;
 }
+```
 🧠 Resumo pra prova
 
 “Para adicionar em um array: uso um contador como índice e incremento após inserir, garantindo que não ultrapasse o tamanho do array.”
