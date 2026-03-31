@@ -13,12 +13,14 @@ Boa pergunta — isso é fundamental em POO sem ArrayList e cai direto em prova 
 
 Array em Java tem tamanho fixo, então você precisa:
 
-Criar o array
-Ter um contador de posições usadas
-Inserir manualmente na próxima posição livre
+1. Criar o array
+2. Ter um contador de posições usadas
+3. Inserir manualmente na próxima posição livre
 🧱 Estrutura padrão
+´´´java
 private Classe[] array;
 private int qtd;
+´´´
 ✅ Método de adição (padrão que você deve decorar)
 public void addElemento(Classe obj) {
     if (qtd < array.length) {
