@@ -22,7 +22,7 @@ private Classe[] array;
 private int qtd;
 ```
 ✅ Método de adição (padrão que você deve decorar)
-
+```java
 public void addElemento(Classe obj) {
     if (qtd < array.length) {
         array[qtd] = obj;
@@ -31,21 +31,24 @@ public void addElemento(Classe obj) {
         System.out.println("Array cheio!");
     }
 }
+```
 📌 Exemplo com seu projeto (Computador no Cliente)
+```java
 public void addComputador(Computador c) {
     if (qtdComputadores < compras.length) {
         compras[qtdComputadores] = c;
         qtdComputadores++;
     }
 }
+```
 🔍 Passo a passo do que acontece
 
 Suponha:
 
-qtdComputadores = 0
+`qtdComputadores = 0`java
 Primeira inserção:
-compras[0] = c;
-qtdComputadores = 1;
+`compras[0] = c;
+qtdComputadores = 1;`java
 Segunda:
 compras[1] = c;
 qtdComputadores = 2;
