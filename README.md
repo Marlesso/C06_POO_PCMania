@@ -4,7 +4,7 @@ Curso: Engenharia de Software
 Matrícula: 667  
 
 Utilizei o Chatgpt para relembrar como usar array de instâncias.  
-prompt: Olá chat, tenho um projeto de POO em java para fazer e quero relembrar como é feito o método de adição de uma instância para um array  
+prompt: Olá chat, tenho um projeto de POO em java para fazer e quero relembrar como é feito o método de adição de uma instância para um array (Anexei meu código).  
 
 Resposta do Chatgpt:  
 Boa pergunta — isso é fundamental em POO sem ArrayList e cai direto em prova 👇  
