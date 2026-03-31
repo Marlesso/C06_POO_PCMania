@@ -17,11 +17,12 @@ Array em Java tem tamanho fixo, então você precisa:
 2. Ter um contador de posições usadas
 3. Inserir manualmente na próxima posição livre
 🧱 Estrutura padrão
-´´´java
+```java
 private Classe[] array;
 private int qtd;
-´´´
+```
 ✅ Método de adição (padrão que você deve decorar)
+
 public void addElemento(Classe obj) {
     if (qtd < array.length) {
         array[qtd] = obj;
